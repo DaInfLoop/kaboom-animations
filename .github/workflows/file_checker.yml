@@ -1,0 +1,10 @@
+name: File Checker
+
+on: ['push', 'pull_request']
+    
+jobs:
+  check_files:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: File check
+        run: ls
