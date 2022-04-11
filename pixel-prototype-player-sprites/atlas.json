@@ -6,29 +6,17 @@
       "from": 14,
       "to": 20,
     },
-    "movement": {
+    "move": {
       "from": 42,
       "to": 49
     },
-    "up": {
+    "jump": {
       "from": 113,
       "to": 117
     },
-    "w": {
-      "from": 113,
-      "to": 117
-    },
-    "space": {
-      "from": 113,
-      "to": 117
-    },
-    "down": {
+    "crouch": {
       "from": 127,
       "to": 131
     },
-    "s": {
-      "from": 127,
-      "to": 131
-    }
   }
 }
