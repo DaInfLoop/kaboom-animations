@@ -31,7 +31,6 @@ example (has animations):
     "idle": {
       "from": 14,
       "to": 20,
-      "loop": true
     },
     "move": {
       "from": 42,
