@@ -5,7 +5,6 @@ a repo i use to host things for kaboom (use https://kaboom-animations.dainfloop.
 create a new folder and the following files must be in it:
 - sprite.png (the sprite of your character)
 - atlas.json (sprite data) (should be a [SpriteAtlasEntry](https://kaboomjs.com/#SpriteAtlasEntry))  
-animation names for atlas.json should be a [Key](https://kaboomjs.com/#Key) string, with one being called "idle" for no buttons pressed. If there is a movement sprite, name it "move" and it will automatically be rotated when either left or right is pushed.
 - create a pr with it
 
 example (no animations):
@@ -31,32 +30,21 @@ example (has animations):
   "anims": {
     "idle": {
       "from": 14,
-      "to": 20
+      "to": 20,
+      "loop": true
     },
-    "movement": {
+    "move": {
       "from": 42,
       "to": 49
     },
-    "up": {
+    "jump": {
       "from": 113,
       "to": 117
     },
-    "w": {
-      "from": 113,
-      "to": 117
-    },
-    "space": {
-      "from": 113,
-      "to": 117
-    },
-    "down": {
+    "crouch": {
       "from": 127,
       "to": 131
     },
-    "s": {
-      "from": 127,
-      "to": 131
-    }
   }
 }
 ```
