@@ -4,7 +4,8 @@
   "anims": {
     "idle": {
       "from": 14,
-      "to": 20
+      "to": 20,
+      "loop": true
     },
     "movement": {
       "from": 42,
